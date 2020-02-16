@@ -18,6 +18,6 @@ class Song
   
   def new_by_name(title)
     song = self.new
-    self.t
+    song.name = 
     
 end
