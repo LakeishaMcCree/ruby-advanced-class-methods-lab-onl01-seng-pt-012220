@@ -28,6 +28,11 @@ class Song
     song
   end
   
+   def self.find_by_name(title) #class finder
+    result = self.all.detect {|song| song.name == title}
+    result
+  end
+  
   
     
 end
